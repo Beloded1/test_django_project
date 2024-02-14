@@ -1,8 +1,15 @@
 <DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Главная страница</title>
+    <title>{{ title }}</title>
 </head>
 <body>
-<h1>Главная страница</h1>
+<p>{{ menu|join:" | " }}</p>
+<p>{{ float|divisibleby:'3' }}</p>
+<p>{{ lst|length }}</p>
+<p>{{ set }}</p>
+<p>{{ dict }}</p>
+<p>{{ obj }}</p>
+<p>{{ url }}</p>
+<h1>{{ title }}</h1>
 </html>
